@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background: #f4f6fa;
+}
+
+header {
+    background: #101a35;
+    color: white;
+    text-align: center;
+    padding: 28px 15px;
+}
+
+header h1 {
+    margin: 0;
+    color: #f3c653;
+}
+
+nav {
+    margin-top: 18px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f3c653;
+}
+
+.hero {
+    background: linear-gradient(135deg, hsl(199, 69%, 72%), #4268a8);
+    color: white;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+}
+
+.button {
+    display: inline-block;
+    background: #f3c653;
+    color: #101a35;
+    padding: 12px 20px;
+    margin-top: 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #ffdb7a;
+}
+
+section:not(.hero) {
+    padding: 35px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+section h2 {
+    text-align: center;
+    color: #172b55;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+}
+
+.service-card {
+    background: white;
+    padding: 22px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.service-card h3 {
+    color: #254b85;
+}
+
+#about p,
+#contact p {
+    max-width: 750px;
+    margin: 12px auto;
+}
+
+#contact {
+    text-align: center;
+}
+
+footer {
+    background: #101a35;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 25px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    .hero {
+        padding: 40px 15px;
+    }
+}
+.logo {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        width: 90px;
+        height: 90px;
+    }
+
+}
+
+#orderForm {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 22px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+#orderForm label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#orderForm input,
+#orderForm select,
+#orderForm textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font: inherit;
+}
+
+#orderForm textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+#orderForm button {
+    border: none;
+    cursor: pointer;
+    font: inherit;
+}
