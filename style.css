@@ -10,7 +10,7 @@ body {
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
     line-height: 1.6;
-    color: #eb568f;
+    color: #222222;
     background: #f4f6fa;
 }
 
@@ -81,7 +81,7 @@ section h2 {
 
 .services {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(220px, 1fr));
     gap: 18px;
 }
 
@@ -110,8 +110,8 @@ footer {
     background: #101a35;
     color: white;
     text-align: center;
-    padding: 18px;
-    margin-top: 25px;
+    padding: 0.5px;
+    margin-top: 50px;
 }
 
 @media (max-width: 600px) {
@@ -240,13 +240,6 @@ footer {
     flex: 0 1 220px;
     box-sizing: border-box;
     text-align: center;
-}
-
-.service-card {
-    background: #f4f7fc;
-    padding: 25px 15px;
-    border-radius: 12px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.12);
 }
 
 .service-card h3 {
