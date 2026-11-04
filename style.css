@@ -259,3 +259,31 @@ footer {
 .service-card a:hover {
     background: #075f2c;
 }
+/* ABOUT US SECTION */
+.about {
+    padding: 50px 25px;
+    background: #f4f7fc;
+    text-align: center;
+    max-width: 1100px;
+    margin: 30px auto;
+    border-radius: 12px;
+}
+
+.about h2 {
+    color: #0b2d5c;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about h3 {
+    color: #128c45;
+    margin-top: 25px;
+}
+
+.about p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 850px;
+    margin: 12px auto;
+}
