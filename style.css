@@ -215,12 +215,12 @@ footer {
 }
 
 /* OUR SERVICES */
-.services {
+.services 
+{
     padding: 50px 20px;
     text-align: center;
     background: #7dd8f3;
 }
-
 .services h2 {
     color: #0b2d5c;
     font-size: 30px;
@@ -329,4 +329,122 @@ footer {
 
 .contact-details a:hover {
     background: #075f2c;
+}
+/* MOBILE NAVIGATION FIX */
+@media screen and (max-width: 768px) {
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    nav ul li {
+        list-style: none;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+}
+/* WEBSITE FOOTER */
+.site-footer {
+    background: #0b2d5c;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    margin-top: 30px;
+}
+
+.site-footer h3 {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.site-footer p {
+    line-height: 1.7;
+}
+
+.site-footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+
+.site-footer a:hover {
+    color: #facc15;
+}
+
+.footer-links {
+    margin: 20px 0;
+}
+
+.copyright {
+    border-top: 1px solid #ffffff55;
+    padding-top: 15px;
+    font-size: 13px;
+}
+/* CUSTOMER ORDER FORM */
+.order-section {
+    padding: 45px 20px;
+    background: #f4f7fc;
+    text-align: center;
+}
+
+.order-section h2 {
+    color: #0b2d5c;
+    font-size: 30px;
+}
+
+.order-section form {
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+    text-align: left;
+}
+
+.order-section label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #0b2d5c;
+}
+
+.order-section input,
+.order-section select,
+.order-section textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.order-section textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.order-section button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    background: #128c45;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
 }
